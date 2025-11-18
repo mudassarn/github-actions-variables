@@ -5,6 +5,7 @@ on:
 
 env:
   ACCESS_ID: ${{ vars.ACCESS_ID }}
+  SECRET: ${{ secrets.TEST_SECRET}}
 
 jobs:
   build:
