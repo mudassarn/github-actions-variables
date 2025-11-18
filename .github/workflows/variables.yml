@@ -13,3 +13,5 @@ jobs:
     steps: # added
     - name: Echo ACCESS_ID
       run: echo $ACCESS_ID
+    - name: Echo Secret
+      run: echo ${{ secrets.TEST_SECRET}}
