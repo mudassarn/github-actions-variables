@@ -10,6 +10,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
+    steps: # added
     - name: Echo ACCESS_ID
       run: echo $ACCESS_ID
